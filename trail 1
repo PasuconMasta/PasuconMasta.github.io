@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Assigment Portal</title>
+  <meta name="viewport" content="intial-scale1, maximum-scale=1">
+  <meta name= description content= " Assigment Portal for Jacob Gagnon in WDD 230: Web Frontend Development at Brigham Young Univercity - Idaho">
+  <link rel="stylesheet" href="assignmentportal.css">
+  <style>
+  	header, body, footer{
+  		font-family: algerian, courier;
+  		
+  	}
+  	header {
+  		border-radius: 25px;
+  		padding: 20px;
+  		background-color: lightblue;
+  		height: 150px;
+  		font-size: 20px;
+  		text-align: center;
+  	}
+  
+  	.photo {
+  		
+  		float:right;
+  	}
+
+  	footer {
+  		background-color: lightblue;
+  		text-align: center;
+  		border-radius: 25px;
+  		padding: 20px;
+  		height: 120px;
+  	}
+  	ul, li {
+  		padding:30px;
+  	}
+  	h1{
+  		font-size: 50px;
+  	}
+  	h2 {
+  		font-size: 30px;
+  	}
+  </style>
+  <script>
+  	let daynames= ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+	let months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
+	let d = newdate();
+	let dayNames = daynames[d.getDay()];
+	let monthName = month[d.getMonth()];
+	let fulldate = dateName +"," + monthName + " " + d.getdate() +", "d.getFullYear();
+
+	document.getelementById("currentdate").textContent = fulldate;
+
+  </script>
+
+</head>
+<body>	
+<header class = "top">
+		<h1>Jacob Varnell Gagnon</h1>
+			<img class = "photo" src="IMG_7497.jpg" alt="Picture of Jacob and Kyley smiling in the snow" height=260 width=400 >
+</header>
+
+<main>
+		
+
+  		<h2 >WDD 230: Assignment Portal </h2>
+  		
+  		<ul>
+  			<li> <a href="https://byui.instructure.com/courses/113926/assignments/4545591"> W01 Assigment </a>
+  			<li> <a href="https://byui.instructure.com/courses/113926/assignments/4545593?module_item_id=12465284"> W02 Assigment </a>
+  			<li> <a href="">W03 Assigment</a>
+  		</ul>
+
+
+</main>
+
+<footer>
+		<p> © <span id="currentdate"> </span> | Jacob V. Gagnon | Ohio | WDD 230-07 | <a href=https://www.byui.edu/online> BYUI Online learning</a> </p> 
+</footer>
+	
+</body>
+</html>
+
