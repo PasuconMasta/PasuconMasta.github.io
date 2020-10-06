@@ -1,0 +1,73 @@
+
+      .container > div {
+        width: min-content;
+        background-color: lightblue;
+        border-radius: 25px;
+      }
+      
+      .container {
+        display: inline-grid;
+        grid-template-columns: 1fr, 1fr, 1fr;
+        margin: 20px;
+        
+    }
+    
+    #block1{
+        grid-column-start:1;
+        
+    }   
+
+    #block2 {
+        grid-column-start:2;
+       
+    }
+    #block3 {
+        grid-column-start:3;
+        
+    }
+  	header, body, footer{
+  		font-family: algerian, courier;
+  		
+  	}
+  	header {
+  		border-radius: 25px;
+  		padding: 20px;
+  		background-color: lightblue;
+  		height: 150px;
+  		font-size: 20px;
+        text-align: center;
+  	}
+  
+
+  	footer {
+  		background-color: lightblue;
+  		text-align: center;
+  		border-radius: 25px;
+  		padding: 20px;
+  		height: 120px;
+        text-align: left;
+  	}
+      .expics{
+          margin:20px;
+          border-style: solid;
+          border-color: rgb(99, 98, 98);
+          border-width: 10px;
+          border-bottom-width:90px;
+          border-top-width:40px;
+    
+      }
+  	h1{
+  		font-size: 20px;
+  	}
+  	h2 {
+  		font-size: 30px;
+          margin: 15px;
+          text-align: center;
+  	}
+      footer {
+          text-align: center;
+      }
+      p{
+        font-family: 'Secular One', sans-serif;
+        padding:10px;
+      }
