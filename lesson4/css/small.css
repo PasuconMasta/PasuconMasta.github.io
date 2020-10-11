@@ -1,20 +1,27 @@
 html{
     background-color: rgb(99, 110, 128);
     font-family: 'Secular One', sans-serif;
+    color: blanchedalmond;
+
 }
 header {
     background-color: rgba(29, 26, 26, 0.959);
     padding:20px;
     display:flex;
     align-items:center;
-	justify-content:center;
+    justify-content:space-evenly;;
+    
+    
 
 }
 
 
-
-h1,h2,h3,h4,p {
-    color:  blanchedalmond;
+}
+h4{
+    font-size:60px;
+}
+p{
+font-size:30px;
 }
 
 Footer{
@@ -22,20 +29,21 @@ Footer{
     border-color: black;
     border-width: 5px;
     background-color: dimgray; 
-    margin: 20px;
     padding: 20px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    margin-top: 30px;
     
 }
 #footerright{
-    grid-column-start: 1;
+    grid-row-start: 1;
 }
 #footerright{
-    grid-column-start: 2;
+    grid-row-start: 2;
 }
 
-    nav{
+nav{
+    visibility: hidden;
         border-top-style: solid;
         border-top-color: white;
         border-top-width: 2px;
@@ -43,13 +51,12 @@ Footer{
        
 
 
-    }
+}
 
    
 
 
-
-    ul {
+ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -75,8 +82,7 @@ Footer{
 
       #wheatherSumBox{
           background-color: dimgray;
-          margin-left: 150px;
-          margin-right: 150px;
+         
           border-style:solid;
           border-color: black;
           border-width: 5px;
@@ -84,18 +90,29 @@ Footer{
 
       #fivedayforecast{
         background-color: dimgray;
-        margin-left: 150px;
-        margin-right: 150px;
         border-style:solid;
         border-color: black;
         border-width: 5px;
         margin-top: 30px;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;  
+    
+        
+
+
+      }
+
+      .weeklyforecast{
+          background-color: rgb(156, 156, 156);
+          height: 50px;
+          width: 50px;
+          margin-top: 50px;
+          
       }
 
       #article{
         background-color: dimgray;
-        margin-left: 150px;
-        margin-right: 150px;
         border-style:solid;
         border-color: black;
         border-width: 5px;
@@ -105,14 +122,16 @@ Footer{
 
 
 #logo{
-    display: inline-block;
+    height:200px;
+    width:280px;
 }
 #mainTitle{
   float: top;
+  font-size: 65px;
 }
 
 #cityName{
-    font-size: 50px;
+    font-size: 80px;
 }
 .SMicons{
     width: 50px;
@@ -121,7 +140,12 @@ Footer{
 }
 
 #radarmap{
-    width: 250px;
-    height: 200px;
+    width: 900px;
+    height: 600px;
 }
 
+#menuicon{
+    height: 100px;
+    width: 100px;
+    
+}
