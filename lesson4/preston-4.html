@@ -7,13 +7,18 @@
   <title>Preston wheather page</title>
   <meta name="viewport" content="initial-scale1, maximum-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/large.css">
   <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
   </head>
   <header>
+      <picture>
     <img src="images/stormlogo.jpg" id="logo" height="100px" width="180px">
+</picture>
+<section class="header">
     <h2 id="mainTitle"> Storms N' Stuff</h2>
     <p>Look out for storms and get great stuff!</p>
+</section>
   </header>
   <nav>
     <ul>
@@ -26,10 +31,11 @@
       
     </ul>
 </nav>
-<h2 id="cityName">Peston Idaho</h2>
+<h2 id="cityName">Preston Idaho</h2>
 <main>
     
     <div id="wheatherSumBanner">
+       
         <div id="wheatherSumBox">
             <img src="weatherIcom.jpg">
             <h4>Today's Storms!</h4>
@@ -49,14 +55,18 @@
     </div>
 </main>
 <footer>
-    <img src="wheatherMap.jpg">
+    <div id="footerleft">
+    <img src="images/PrestonIDRadarMap.jpg" id="radarmap">
+    </div>
+    <div id="footerright">
     <h4>Contact Information</h4>
     4534 Adress Rd bla bla<br>
     343-784-0909<br>
     StormsNstuff@gmail.com <br>
-<img src="FB.jpg">
-<img src="Intsa.jpg">
-<img src="Twitter.jpg">
+<img src="images/FBicon.jpg" class="SMicons">
+<img src="images/IGicon.jpg" class="SMicons">
+<img src="images/TWicon.jpg" class="SMicons">
+</div>
 </footer>
 
 

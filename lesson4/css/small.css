@@ -1,0 +1,127 @@
+html{
+    background-color: rgb(99, 110, 128);
+    font-family: 'Secular One', sans-serif;
+}
+header {
+    background-color: rgba(29, 26, 26, 0.959);
+    padding:20px;
+    display:flex;
+    align-items:center;
+	justify-content:center;
+
+}
+
+
+
+h1,h2,h3,h4,p {
+    color:  blanchedalmond;
+}
+
+Footer{
+    border-style:solid;
+    border-color: black;
+    border-width: 5px;
+    background-color: dimgray; 
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+#footerright{
+    grid-column-start: 1;
+}
+#footerright{
+    grid-column-start: 2;
+}
+
+    nav{
+        border-top-style: solid;
+        border-top-color: white;
+        border-top-width: 2px;
+        background-color:  rgba(29, 26, 26, 0.959);
+       
+
+
+    }
+
+   
+
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(29, 26, 26, 0.959);
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: blanchedalmond;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: rgb(94, 94, 94);
+      }
+
+      #wheatherSumBox{
+          background-color: dimgray;
+          margin-left: 150px;
+          margin-right: 150px;
+          border-style:solid;
+          border-color: black;
+          border-width: 5px;
+      }
+
+      #fivedayforecast{
+        background-color: dimgray;
+        margin-left: 150px;
+        margin-right: 150px;
+        border-style:solid;
+        border-color: black;
+        border-width: 5px;
+        margin-top: 30px;
+      }
+
+      #article{
+        background-color: dimgray;
+        margin-left: 150px;
+        margin-right: 150px;
+        border-style:solid;
+        border-color: black;
+        border-width: 5px;
+        margin-top: 30px;
+      }
+
+
+
+#logo{
+    display: inline-block;
+}
+#mainTitle{
+  float: top;
+}
+
+#cityName{
+    font-size: 50px;
+}
+.SMicons{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#radarmap{
+    width: 250px;
+    height: 200px;
+}
+
