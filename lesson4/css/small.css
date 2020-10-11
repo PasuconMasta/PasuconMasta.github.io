@@ -16,7 +16,7 @@ header {
 }
 
 
-}
+
 h4{
     font-size:60px;
 }
@@ -82,10 +82,16 @@ ul {
 
       #wheatherSumBox{
           background-color: dimgray;
-         
           border-style:solid;
           border-color: black;
           border-width: 5px;
+          display: flex;
+
+      }
+
+      #stormicon{
+          width: 200px;
+          height: 200px;
       }
 
       #fivedayforecast{
@@ -108,7 +114,8 @@ ul {
           height: 50px;
           width: 50px;
           margin-top: 50px;
-          
+          display:grid;
+          grid-template-columns: ;
       }
 
       #article{
