@@ -106,7 +106,6 @@ ul {
     
         
 
-
       }
 
       .weeklyforecast{
@@ -154,4 +153,10 @@ ul {
     height: 100px;
     width: 100px;
     
+}
+
+#stormcloud{
+    height:300px;
+    width: 800px;
+    align-items: center;
 }
