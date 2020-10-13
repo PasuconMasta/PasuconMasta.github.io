@@ -155,7 +155,7 @@ li a {
 }
 
 #stormcloud{
-    
+    visibility: hidden;
     height:300px;
     width: 800px;
     align-items: center;

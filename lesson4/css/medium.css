@@ -28,6 +28,8 @@ flex-direction: row;
      footer{
         background-color: black;
      }
-
+     #stormcloud{
+        visibility: visible;
+     }
 
 }

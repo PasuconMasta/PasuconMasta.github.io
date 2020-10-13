@@ -16,8 +16,9 @@ nav{
         padding:0;
     }
    
-    
-    
+    #stormcloud{
+        visibility: visible;
+     }
 
 h4{
     font-size:30px;
