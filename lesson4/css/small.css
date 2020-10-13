@@ -2,27 +2,24 @@ html{
     background-color: rgb(99, 110, 128);
     font-family: 'Secular One', sans-serif;
     color: blanchedalmond;
+    }
 
-}
 header {
     background-color: rgba(29, 26, 26, 0.959);
     padding:20px;
     display:flex;
     align-items:center;
-    justify-content:space-evenly;;
-    
-    
-
-}
-
-
+    justify-content:space-evenly;; 
+    flex-direction: column; 
+    }
 
 h4{
-    font-size:60px;
-}
+    font-size:30px;
+    }       
+
 p{
-font-size:30px;
-}
+font-size:15px;
+    }
 
 Footer{
     border-style:solid;
@@ -32,48 +29,47 @@ Footer{
     padding: 20px;
     display: grid;
     grid-template-rows: 1fr 2fr;
-    margin-top: 30px;
-    
-}
+    margin-top: 30px;  
+    }
+
 #footerright{
     grid-row-start: 1;
 }
+
 #footerright{
     grid-row-start: 2;
 }
 
 nav{
     visibility: hidden;
-        border-top-style: solid;
-        border-top-color: white;
-        border-top-width: 2px;
-        background-color:  rgba(29, 26, 26, 0.959);
-       
-
-
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 2px;
+    background-color:  rgba(29, 26, 26, 0.959);
 }
 
    
 
 
 ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgba(29, 26, 26, 0.959);
-      }
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(29, 26, 26, 0.959);
+    
+}
       
-      li {
-        float: left;
-      }
+li {
+    float: left;
+    }
       
-      li a {
-        display: block;
-        color: blanchedalmond;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+li a {
+    display: block;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
       }
       
       li a:hover {
@@ -86,12 +82,14 @@ ul {
           border-color: black;
           border-width: 5px;
           display: flex;
-
+          flex-direction: column;
+          
       }
 
+      
       #stormicon{
-          width: 200px;
-          height: 200px;
+          width: 100px;
+          height: 100px;
       }
 
       #fivedayforecast{
@@ -128,15 +126,15 @@ ul {
 
 
 #logo{
-    height:200px;
-    width:280px;
+    height:100px;
+    width:140px;
 }
 #mainTitle{
-  font-size: 65px;
+  font-size: 40px;
 }
 
 #cityName{
-    font-size: 80px;
+    font-size: 30px;
 }
 .SMicons{
     width: 50px;
@@ -145,17 +143,19 @@ ul {
 }
 
 #radarmap{
-    width: 900px;
-    height: 600px;
+    width: 300px;
+    height: 200px;
 }
 
 #menuicon{
-    height: 100px;
-    width: 100px;
+    visibility: visible;
+    height: 50px;
+    width: 50px;
     
 }
 
 #stormcloud{
+    
     height:300px;
     width: 800px;
     align-items: center;

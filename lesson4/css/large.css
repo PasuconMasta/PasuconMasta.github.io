@@ -1,16 +1,23 @@
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 769px)
+{
+
+    #menuicon{
+    visibility: hidden;
+    }
+  
+nav{
+    visibility:  visible;
+    
+}
+
     h2{
         font-size: 40px;
         padding:0;
     }
-    nav{
-        visibility:  visible;
-    }
+   
     
-#menuicon{
-    visibility: hidden;
-}
+    
 
 h4{
     font-size:30px;
@@ -44,5 +51,5 @@ footer{
 #stormcloud{
     height: 500px;
 }
-
+*/
 }

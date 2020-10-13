@@ -1,3 +1,33 @@
-@media only screen and (min-width: 375px){
+@media only screen and (min-width: 376px){
+
+    header{
+flex-direction: row;
+    }
+
+    h4{
+        font-size:40px;
+    }
+    
+    #wheatherSumBox{
+        background-color: black;
+        flex-direction: row;
+        
+    }
+     #todaysstorms{
+         margin: 15px;
+     }
+
+     #fivedayforecast{
+        background-color: black; 
+     }
+
+     #article{
+        background-color: black;
+     }
+
+     footer{
+        background-color: black;
+     }
+
 
 }
