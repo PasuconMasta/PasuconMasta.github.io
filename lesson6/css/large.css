@@ -1,0 +1,60 @@
+@media screen and (min-width: 769px)
+{
+    #menuicon{
+    visibility: hidden;
+    }
+  
+nav{
+    visibility:  visible;
+}
+
+    h2{
+        font-size: 40px;
+        padding:0;
+    }
+   
+    #stormcloud{
+        visibility: visible;
+     }
+
+h4{
+    font-size:30px;
+}
+p{
+font-size:15px;
+}
+
+#wheatherSumBox{
+    margin: 50px;
+   width:400px;
+}
+
+#fivedayforecast{
+    margin:50px;
+}
+
+#article{
+    margin: 50px;
+}
+
+#radarmap{
+    width: 300px;
+    height: 200px;
+}
+
+footer{
+    margin: 50px;
+}
+
+#stormcloud{
+    height: 500px;
+}
+
+.SMicons{
+    width: 50px;
+    height: 50px;
+    margin:10px;
+
+}
+
+}
