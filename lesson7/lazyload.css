@@ -1,10 +1,26 @@
-img {
-    width: 300px;
-    height: 400px;
-}
+
 
 .container {
     display: grid;
     grid-template-columns: 1fr ; 
     
 }
+
+h1{
+    text-align: center;
+}
+
+img{
+    margin-left: 40%;
+    width: 300px;
+    height: 400px;
+}
+
+article img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
