@@ -16,11 +16,11 @@ img{
     height: 400px;
 }
 
-article img[data-src] {
+img[data-src] {
     filter: blur(0.2em);
   }
   
-  article img {
+img {
     filter: blur(0em);
-    transition: filter 0.5s;
+    transition: filter 2s;
   }
