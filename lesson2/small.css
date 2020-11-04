@@ -2,30 +2,19 @@
     
       
       .container {
+        margin-top: 5%;
+        margin-bottom: 5%;
         width: 100%;
-        margin: 20px;  
+       
         
         
     }
-    #block1{
-        width: 75%;
+    .block{
+        width: 300px;
         background-color: lightblue;
         border-radius: 25px;
-        margin: 20px;
         
-    }   
-
-    #block2 {
-        width: 75%;
-        background-color: lightblue;
-        border-radius: 25px;
-        margin: 20px;
-    }
-    #block3 {
-        width: 75%;
-        background-color: lightblue;
-        border-radius: 25px;
-        margin: 20px;
+  
     }
    
   	header, body, footer{
@@ -63,14 +52,10 @@
 
       }
 
-      #secPic{
-        height: 30%;
-        width: 70%;
+      img{
+        height: 400px;
+        width: 200px;
       }
-
-      #amazonPic
-      height: 40%;
-        width: 70%;
 
   	#maintitle{
   		font-size: 45px;
