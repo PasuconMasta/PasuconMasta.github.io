@@ -4,22 +4,37 @@ header{
     flex-direction: row;
 }
 
+
     h4{
-        font-size:40px;
+        font-size:30px;
     }
+
     
-    #wheatherSumBox{
+   
+    .wheatherSumBox{
         background-color: black;
         flex-direction: row;
+        width: 70%;
+        position: absolute;
+        bottom: 25%;
+        margin-left: 10%;
+
         
     }
      #todaysstorms{
          margin: 15px;
      }
 
-     #fivedayforecast{
-        background-color: black; 
+     .fivedayforecast{
+        background-color: black;
+        flex-direction:column; 
      }
+
+     .weeklyforecast{
+        width: 50%;
+       
+          }
+    
 
      #article{
         background-color: black;
@@ -29,7 +44,9 @@ header{
         background-color: black;
      }
      #stormcloud{
-        visibility: visible;
+        height:50%;
+        width: 90%;
+        margin-left: 5%;
      }
 
      .SMicons{

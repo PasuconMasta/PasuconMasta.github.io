@@ -24,12 +24,16 @@ p{
 font-size:15px;
 }
 
-#wheatherSumBox{
+.wheatherSumBox{
     margin: 50px;
    width:400px;
+   position: relative;
+   bottom:400px;
+   
+   
 }
 
-#fivedayforecast{
+.fivedayforecast{
     margin:50px;
 }
 
@@ -46,9 +50,14 @@ footer{
     margin: 50px;
 }
 
-#stormcloud{
-    height: 500px;
-}
+.fivedayforecast{
+    flex-direction:row; 
+ }
+
+ .weeklyforecast{
+    width: 50px;
+    margin-left: 0px
+      }
 
 .SMicons{
     width: 50px;
