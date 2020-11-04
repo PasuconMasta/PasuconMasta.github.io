@@ -12,6 +12,12 @@
   nav ul li{
     margin: 20px;
   }
+  nav{
+    background-color: black;
+}
+nav a:hover {
+  background-color: white;
+  }
 
   Body{
     background-color: #696969;
@@ -23,25 +29,16 @@ header{
     border-color: black;
     border-width: 5px;
 }
-aside{
-  background-color: #636e80;
-    height:1000px;
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    width: 100px;
-}
-footer{
-    background-color: #1f304d;
-    height: 100px;
 
-}
-img {
-    float: right;
-}
-#temp{
-    font-size: 40px;
-    color: #ffebcd;
+footer{
+  background-color: #636e80;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  width: 100%;
+  color: #ffebcd;
+
 }
 
 #color1{
@@ -67,13 +64,12 @@ body{
     background-color:dimgray;
 }
 
-nav{
-    background-color: black;
+img{
+  width: 50%;
+  height: 100%;
 }
 
-nav a:hover {
-background-color: white;
-}
+
 p{
   font-family: "Times New Roman", Times, serif; 
   
