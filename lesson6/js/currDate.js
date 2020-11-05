@@ -32,3 +32,8 @@ var fullDate = "Current date: " + day + ", " + date + " " + month + " " + year
 document.getElementById('currentdate').textContent = fullDate
 }
 window.onload = currentDate 
+
+
+if ( day == "Saturday") {
+    alert("Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.");
+  }
