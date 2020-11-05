@@ -15,9 +15,9 @@ header{
         background-color: black;
         flex-direction: row;
         width: 70%;
-        position: absolute;
-        bottom: 25%;
-        margin-left: 10%;
+        margin-left: 5%;
+        position: relative;
+        bottom: 180px;
 
         
     }
@@ -55,6 +55,9 @@ header{
         margin: 20px;
 }
 
+#stormicon{
+   visibility: visible;
+   }
 
 
 }

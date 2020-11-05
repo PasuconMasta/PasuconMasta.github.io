@@ -26,9 +26,9 @@ font-size:15px;
 
 .wheatherSumBox{
     margin: 50px;
-   width:400px;
    position: relative;
-   bottom:400px;
+   bottom:300px;
+   width: 50%;
    
    
 }

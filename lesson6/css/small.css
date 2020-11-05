@@ -15,7 +15,7 @@ header {
 
 h4{
     margin: 0px;
-    font-size:20px;
+    font-size:15px;
     }       
 
     
@@ -42,10 +42,6 @@ Footer{
     grid-row-start: 2;
 }
 
-
-
-
-
       .wheatherSumBox{
           background-color: dimgray;
           border-style:solid;
@@ -54,16 +50,18 @@ Footer{
           display: flex;
           flex-direction: column;
           align-items: center;
-          width: 55%;
-          position: absolute;
-          bottom: 100px;
+          width: 50%;
           margin-left: 10px;
+          height: 100px;
+          position: relative;
+          bottom: 130px;
       }
 
       
       #stormicon{
           width: 50px;
           height: 50px;
+          display: none;
       }
 
 .fivedayforecast{
@@ -99,8 +97,6 @@ Footer{
     margin-top: 30px;
 }
 
-
-
 #logo{
     height:100px;
     width:178px;
@@ -124,12 +120,6 @@ Footer{
     height: 30%;
 }
 
-#menuicon{
-    visibility: visible;
-    height: 50px;
-    width: 50px;
-    
-}
 
 #stormclouds{
     height: 50%;
@@ -137,12 +127,6 @@ Footer{
     
 }
  
-
-
-
-
-
-
 
 
 nav{
@@ -185,4 +169,9 @@ li a:hover {
 
 .navigation li:first-child {
     display: block;
+}
+
+.hero {
+    display: flex;
+
 }
