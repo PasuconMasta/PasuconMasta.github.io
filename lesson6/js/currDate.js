@@ -28,7 +28,7 @@ var year = d.getFullYear();
 var day = weekday[d.getDay()]
 var month = months[d.getMonth()]
 var date = d.getDate() 
-var fullDate = "Current date: " + day + ", " + month + " " + date + ", " + year
+var fullDate = "Current date: " + day + ", " + date + " " + month + " " + year
 document.getElementById('currentdate').textContent = fullDate
 }
 window.onload = currentDate 

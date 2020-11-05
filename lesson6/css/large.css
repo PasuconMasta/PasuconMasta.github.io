@@ -66,4 +66,16 @@ footer{
 
 }
 
+.navigation li:first-child{
+    display: none;
+ }
+.navigation li{
+    display: block;
+    
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
 }

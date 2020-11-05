@@ -1,0 +1,188 @@
+body{
+    background-color: rgb(99, 110, 128);
+    font-family: 'Secular One', sans-serif;
+    color: blanchedalmond;
+    }
+
+header {
+    background-color: rgba(29, 26, 26, 0.959);
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;; 
+    flex-direction: column; 
+    }
+
+h4{
+    margin: 0px;
+    font-size:20px;
+    }       
+
+    
+p{
+font-size:15px;
+    }
+
+Footer{
+    border-style:solid;
+    border-color: black;
+    border-width: 5px;
+    background-color: dimgray; 
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    margin-top: 30px;  
+    }
+
+#footerright{
+    grid-row-start: 1;
+}
+
+#footerright{
+    grid-row-start: 2;
+}
+
+
+
+
+
+      .wheatherSumBox{
+          background-color: dimgray;
+          border-style:solid;
+          border-color: black;
+          border-width: 5px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 55%;
+          position: absolute;
+          bottom: 100px;
+          margin-left: 10px;
+      }
+
+      
+      #stormicon{
+          width: 50px;
+          height: 50px;
+      }
+
+.fivedayforecast{
+    background-color: dimgray;
+    border-style:solid;
+    border-color: black;
+    border-width: 5px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;  
+    
+
+    
+}
+
+.weeklyforecast{
+    background-color: rgb(156, 156, 156);
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 20%;
+    display:grid;
+    width: 50%;
+   
+    
+      }
+
+#article{
+    background-color: dimgray;
+    border-style:solid;
+    border-color: black;
+    border-width: 5px;
+    margin-top: 30px;
+}
+
+
+
+#logo{
+    height:100px;
+    width:140px;
+}
+#mainTitle{
+  font-size: 40px;
+}
+
+#cityName{
+    font-size: 30px;
+}
+.SMicons{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    
+}
+
+#radarmap{
+    width: 90%;
+    height: 30%;
+}
+
+#menuicon{
+    visibility: visible;
+    height: 50px;
+    width: 50px;
+    
+}
+
+#stormcloud{
+    height: 15em;
+    width: 100%;
+    
+}
+ 
+
+
+
+
+
+
+
+
+nav{
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 2px;
+}
+
+   
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(29, 26, 26, 0.959);
+    
+}
+      
+      
+li a {
+    display: block;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+      }
+li a:hover {
+        background-color: rgb(94, 94, 94);
+      }
+
+
+
+.navigation li{
+    display:none;
+} 
+.responsive li {
+    display: block;
+}
+
+.navigation li:first-child {
+    display: block;
+}

@@ -5,20 +5,19 @@
   <meta charset="utf-8">
 
   <title>Preston wheather page</title>
-  <meta name="viewport" content="initial-scale1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, intial-scale=1, viewport-fit=cover">
   <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <meta name=description content= "this is an informational page about Preston, Idaho">
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
-  
-  
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <meta name= description content= "niche website for storm enthusiests in preston idaho and other towns">
+
   
 
 </head>
 <body>
-<script src="js/currDate.js"></script>
+
 
   <header>
       <picture>
@@ -28,20 +27,21 @@
     <h2 id="mainTitle"> Storms N' Stuff</h2>
     <p>Look out for storms and get great stuff!</p>
 </section>
-<picture><img src="images/menuicon.jpg" id="menuicon" alt="menu button"></picture>
+
+
   </header>
   <nav>
-    <ul>
-        <li> <a href=""> Home </a>
-        <li> <a href="">Preston</a>
-        <li> <a href="">Soda Springs</a>
-        <li> <a href=""> Fish Haven</a>
-        <li> <a href="">Storm Center</a>
-        <li> <a href=""> Gallery</a>
-      
+    <ul class="navigation">
+        <li><a class="ham" href="#" onclick="toggleMenu()" >☰ Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a class="currentpage" href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
     </ul>
 </nav>
-<main></main>
+<main>
 <h2 id="cityName">Preston Idaho</h2>
 <div class="Hero">
 <img src="images/wdd230_image_franklinOriginal_Large.jpeg" id="stormcloud" alt="storm clouds">
@@ -88,9 +88,11 @@
 <img src="images/IGicon.jpg" class="SMicons" alt="instagram link">
 <img src="images/TWicon.jpg" class="SMicons" alt="twitter link">
 <br><br><br>
-<div id="currentdate"> </div> 
+<span id="currentdate"> </span> 
 </div>
 </footer>
 </body>
+<script src="js/currDate.js"></script>
+<script src="js/menuBtn.js"></script>
 </html>
   

@@ -1,0 +1,60 @@
+@media screen and (min-width: 376px){
+
+header{
+    flex-direction: row;
+}
+
+
+    h4{
+        font-size:30px;
+    }
+
+    
+   
+    .wheatherSumBox{
+        background-color: black;
+        flex-direction: row;
+        width: 70%;
+        position: absolute;
+        bottom: 25%;
+        margin-left: 10%;
+
+        
+    }
+     #todaysstorms{
+         margin: 15px;
+     }
+
+     .fivedayforecast{
+        background-color: black;
+        flex-direction:column; 
+     }
+
+     .weeklyforecast{
+        width: 50%;
+       
+          }
+    
+
+     #article{
+        background-color: black;
+     }
+
+     footer{
+        background-color: black;
+     }
+     #stormcloud{
+        height:50%;
+        width: 90%;
+        margin-left: 5%;
+     }
+
+     .SMicons{
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+}
+
+
+
+}

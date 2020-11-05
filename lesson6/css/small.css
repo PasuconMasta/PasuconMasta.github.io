@@ -1,4 +1,4 @@
-html{
+body{
     background-color: rgb(99, 110, 128);
     font-family: 'Secular One', sans-serif;
     color: blanchedalmond;
@@ -42,41 +42,9 @@ Footer{
     grid-row-start: 2;
 }
 
-nav{
-    visibility: hidden;
-    border-top-style: solid;
-    border-top-color: white;
-    border-top-width: 2px;
-    background-color:  rgba(29, 26, 26, 0.959);
-}
-
-   
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(29, 26, 26, 0.959);
-    
-}
-      
-li {
-    float: left;
-    }
-      
-li a {
-    display: block;
-    color: blanchedalmond;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-      }
-      
-      li a:hover {
-        background-color: rgb(94, 94, 94);
-      }
+
 
       .wheatherSumBox{
           background-color: dimgray;
@@ -167,4 +135,54 @@ li a {
     height: 15em;
     width: 100%;
     
+}
+ 
+
+
+
+
+
+
+
+
+nav{
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 2px;
+}
+
+   
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(29, 26, 26, 0.959);
+    
+}
+      
+      
+li a {
+    display: block;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+      }
+li a:hover {
+        background-color: rgb(94, 94, 94);
+      }
+
+
+
+.navigation li{
+    display:none;
+} 
+.responsive li {
+    display: block;
+}
+
+.navigation li:first-child {
+    display: block;
 }
