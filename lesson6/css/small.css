@@ -124,6 +124,7 @@ Footer{
 #stormclouds{
     height: 50%;
     width: 80%;
+    margin-left: 10%;
     
 }
  
@@ -171,7 +172,4 @@ li a:hover {
     display: block;
 }
 
-.hero {
-    display: flex;
 
-}
