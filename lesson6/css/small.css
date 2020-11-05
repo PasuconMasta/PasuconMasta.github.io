@@ -103,7 +103,7 @@ Footer{
 
 #logo{
     height:100px;
-    width:140px;
+    width:178px;
 }
 #mainTitle{
   font-size: 40px;
@@ -131,9 +131,9 @@ Footer{
     
 }
 
-#stormcloud{
-    height: 15em;
-    width: 100%;
+#stormclouds{
+    height: 50%;
+    width: 80%;
     
 }
  
