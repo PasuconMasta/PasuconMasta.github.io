@@ -1,0 +1,61 @@
+
+html {
+    font-family: sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    margin-left: 30%;
+    margin-top: 5%;
+
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  .row3, .row5, .row7{
+    background-color: #e7f0ed;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: #e7ffed;
+  }
+  
+  caption {
+    padding: 10px;
+  }
+
+  th {
+    background-color: #7fb9c2 ;
+    font-size: 2.5rem;
+    text:bold;
+
+  }
+
+  #tfooter {
+    background-color: #7fb9c2;
+    font-size: .999rem;
+  }
+
+  .row1, #novSalesGoal{
+    background-color:#628ca6;
+    color: white;
+  }
+
+  .row1{
+    text: bold;
+    font-size: 2.3rem;
+  }
+
+  #blackFriday{
+    font-style: italic;
+  }
