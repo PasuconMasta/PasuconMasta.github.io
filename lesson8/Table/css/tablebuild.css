@@ -1,7 +1,4 @@
 
-html {
-    font-family: sans-serif;
-  }
   
   table {
     border-collapse: collapse;
@@ -11,6 +8,7 @@ html {
     margin-left: 30%;
     margin-top: 5%;
     box-shadow: 10px 10px 5px 0 #628ca6;
+    font-family: 'Ubuntu', sans-serif;
 
   }
   
@@ -21,6 +19,7 @@ html {
   
   td {
     text-align: center;
+    padding: 9px;
   }
   
   .row3, .row5, .row7{
@@ -32,7 +31,7 @@ html {
   }
   
   caption {
-    padding: 10px;
+    padding: 5px;
   }
 
   th {
@@ -63,5 +62,6 @@ html {
 
   .acmeWildwest{
     box-shadow: 10px 10px 10px 0 #628ca6;
-    width: 370px;
+    width: 300px;
+    
   }
