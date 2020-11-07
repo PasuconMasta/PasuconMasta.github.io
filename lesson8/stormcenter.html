@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Storm Center</title>
+  <meta name="viewport" content="width=device-width, intial-scale=1, viewport-fit=cover">
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <meta name="description" content= "this is page to let user send in information about storms">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+  
+
+</head>
+<body>
+
+
+  <header>
+      <picture>
+    <img src="images/stormlogo.jpg" id="logo" alt="Storms N' stuff Logo">
+</picture>
+<section class="header">
+    <h2 id="mainTitle"> Storms N' Stuff</h2>
+    <p>Look out for storms and get great stuff!</p>
+</section>
+
+
+  </header>
+  <nav>
+    <ul class="navigation">
+        <li><a class="ham" href="#" onclick="toggleMenu()" >☰ Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a class="currentpage" href="#">Storm Center</a></li>
+        <li><a href="lesson7/gallery-7.html">Gallery</a></li>
+    </ul>
+</nav>
+<main>
+
+    <form action="" method="get" class="form-example">
+        <div class="formLine">
+          <label for="name">Full Name: </label>
+          <input type="text" name="name" id="name" required pattern="[a-z A-Z]{5,25}">
+        </div>
+        <div class="formLine">
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" required placeholder="example@domain.com">
+        </div>
+        <div class="formLine">
+            <label for="tel">Phone Number: </label>
+            <input type="tel" name="tel" id="tel" required placeholder="###-###-###">
+          </div>
+          <div class="formLine">
+            <label for="zip">Zip Code: </label>
+            <input type="number" name="zip" id="zip" required>
+          </div>
+          <div class="formLine">
+            <label for="date">Storm Date: </label>
+            <input type="date" name="date" id="date" required>
+          </div>
+          <div class="formLine">
+            <label for="stormtype">Storm Date: </label>
+            <input type="text" list="stormtypes" name="stormtype" id="stormtype" required>
+            <datalist id="stormtypes">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Huriicane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+                <option value="High winds">
+                <option value="Blizzard">
+            </datalist>
+          </div>
+          <div class="formLine">
+            <label for="stormnum">Storm Intensity: </label>
+            <p style="margin-left: 20px;" id="rangeLbl"></p>
+            <input type="range" name="stormnum" id="stormnum" min="1" max="10"required onchange="updateTextInput(this.value);" >
+          </div>
+        <div class="formLine">
+            <label for="stormregion">Storm Region: 
+                <select name="stormregion"  id="stormregion">
+                <option value="" disabled>Select Region...</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda Springs">Soda Springs</option>
+                <option value="Fish Haven">Fish Haven</option>
+                </select>
+            </label>
+          </div>
+          <div class="formLine">
+            <legend>User in-danger-level <em>(Choose one)</em></legend>
+				<label for="yes"><input type="radio" id="yes" name="in-danger-level"checked> yes</label>
+                <label for="maybe"><input type="radio" id="maybe" name="in-danger-level" >maybe</label>
+                <label for="no"><input type="radio" id="no" name="in-danger-level" >no</label>
+          </div>
+
+
+
+          <div class="formLine">
+            <input type="submit" value="Enter Alert">
+          </div>
+      </form>
+
+      
+
+    
+
+</main>
+<footer>
+    <div id="footerleft">
+    <img src="images/PrestonIDRadarMap.jpg" id="radarmap" alt=" map of local wheather radar">
+    </div>
+    <div id="footerright">
+    <h4>Contact Information</h4>
+    4534 Adress Rd bla bla<br>
+    343-784-0909<br>
+    StormsNstuff@gmail.com <br>
+<img src="images/FBicon.jpg" class="SMicons" alt="facebook link">
+<img src="images/IGicon.jpg" class="SMicons" alt="instagram link">
+<img src="images/TWicon.jpg" class="SMicons" alt="twitter link">
+<br><br><br>
+<span id="currentdate"> </span> 
+</div>
+</footer>
+</body>
+<script src="js/currDate.js"></script>
+<script src="js/menuBtn.js"></script>
+</html>
+  
