@@ -7,9 +7,10 @@ html {
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-left: 30%;
     margin-top: 5%;
+    box-shadow: 10px 10px 5px 0 #628ca6;
 
   }
   
@@ -36,14 +37,14 @@ html {
 
   th {
     background-color: #7fb9c2 ;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text:bold;
 
   }
 
   #tfooter {
     background-color: #7fb9c2;
-    font-size: .999rem;
+    font-size: .5rem;
   }
 
   .row1, #novSalesGoal{
@@ -53,9 +54,14 @@ html {
 
   .row1{
     text: bold;
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 
   #blackFriday{
     font-style: italic;
+  }
+
+  .acmeWildwest{
+    box-shadow: 10px 10px 10px 0 #628ca6;
+    width: 400px;
   }
