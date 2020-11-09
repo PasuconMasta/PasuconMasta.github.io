@@ -82,7 +82,7 @@
           <div class="formLine">
             <label for="stormnum">Storm Intensity: </label>
             <p  id="rangeLbl"></p>
-            <input type="range" name="stormnum" id="stormnum" min="1" max="10" required onchange="updateTextInput(this.value);" >
+            <input type="range" name="stormnum" id="stormnum" min="1" max="10" onchange="updateTextInput(this.value);" >
           </div>
         <div class="formLine">
             <label for="stormregion">Storm Region: 
@@ -98,7 +98,7 @@
           <br>
           <div class="formLine">
             <label>User in-danger-level (Choose one)</label><br>
-				<label for="yes"><input type="radio" id="yes" name="in-danger-level"checked> yes</label>
+				<label for="yes"><input type="radio" id="yes" name="in-danger-level" checked> yes</label>
                 <label for="maybe"><input type="radio" id="maybe" name="in-danger-level" >maybe</label>
                 <label for="no"><input type="radio" id="no" name="in-danger-level" >no</label>
           </div>
@@ -133,11 +133,11 @@
 <img src="images/IGicon.jpg" class="SMicons" alt="instagram link">
 <img src="images/TWicon.jpg" class="SMicons" alt="twitter link">
 <br><br><br>
-<span id="currentdate"> </span> 
+<span id="currentdate"></span> 
 </div>
 </footer>
-</body>
 <script src="js/currDate.js"></script>
 <script src="js/menuBtn.js"></script>
+</body>
 </html>
   

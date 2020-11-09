@@ -62,7 +62,12 @@ header{
    #thankyou{
       font-size: 200%;
   }
-
+  input{
+   font-size: 20px;
+}
+label{
+   font-size: 20px;
+}
 
 
 
