@@ -42,8 +42,10 @@
     </ul>
 </nav>
 <main>
+  <h1 id="title">Report current storms</h1>
 
-    <form action="" method="get" class="form-example">
+ 
+    <form action="thankyou.html" method="get" class="form-example" >
         <div class="formLine">
           <label for="name">Full Name: </label>
           <input type="text" name="name" id="name" required pattern="[a-z A-Z]{5,25}">
@@ -91,19 +93,26 @@
                 <option value="Fish Haven">Fish Haven</option>
                 </select>
             </label>
+         
           </div>
+          <br>
           <div class="formLine">
-            <legend>User in-danger-level <em>(Choose one)</em></legend>
+            <label>User in-danger-level (Choose one)</label><br>
 				<label for="yes"><input type="radio" id="yes" name="in-danger-level"checked> yes</label>
                 <label for="maybe"><input type="radio" id="maybe" name="in-danger-level" >maybe</label>
                 <label for="no"><input type="radio" id="no" name="in-danger-level" >no</label>
           </div>
 
-
-
           <div class="formLine">
-            <input type="submit" value="Enter Alert">
-          </div>
+          <label for="comments">Additional comments</label>
+          <br>
+          <textarea id="comments" name="Additional comments" >
+          </textarea>
+        </div>
+
+         
+            <input type="submit" value="Enter Alert" >
+          
       </form>
 
       

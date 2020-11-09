@@ -78,4 +78,13 @@ footer{
     flex-direction: row;
 }
 
+form{
+    width: 70%;
+    margin: 20%;
+ }
+
+ #thankyou{
+    font-size: 300%;
+}
+
 }

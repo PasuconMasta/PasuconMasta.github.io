@@ -55,9 +55,15 @@ header{
         margin: 20px;
 }
 
-#stormicon{
+   #stormicon{
    visibility: visible;
    }
+
+   #thankyou{
+      font-size: 200%;
+  }
+
+
 
 
 }

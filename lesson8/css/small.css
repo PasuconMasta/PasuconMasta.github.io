@@ -181,18 +181,20 @@ main {
     width:90%;
 }
 
+
 form{
     background-color: dimgray;
-    width: 40%;
-          border-style:solid;
-          border-color: black;
-          border-width: 5px;
-          margin: 20%;
-          box-shadow: 10px 10px 10px 0 black;
+    width: 90%;
+    border-style:solid;
+    border-color: black;
+    border-width: 5px;
+    margin: 8%;
+    box-shadow: 10px 10px 10px 0 black;
+
 }
 input{
     padding: .2rem;
-    margin: 1em;
+    margin: 3em;
 }
 
 label{
@@ -201,4 +203,20 @@ label{
 
 input:invalid{
     background-color: salmon;
+}
+
+#title{
+    margin-left: 10%;
+}
+
+textarea{
+    width:60%;
+    margin-left: 10%;
+    height: 100px;
+}
+
+#thankyou{
+    font-size: 100%;
+    margin:15%;
+    margin-bottom: 50%;
 }
