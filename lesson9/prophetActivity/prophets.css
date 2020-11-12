@@ -1,11 +1,30 @@
+body{
+    font-size: 0.3em;
+    color: rgb(33, 101, 189);
+    
+}
+main{
+    box-shadow: 10px 10px 10px 10px black;
+    background-color: rgb(209, 207, 207);
+}
+h1{
+    font-size: 1em;
+}
+h2{
+    font-size: 0.8em;
+}
 
-
+section{
+    margin: 5%;
+    background-color:rgb(131, 146, 194) ;
+    border: solid rgb(0, 0, 109);
+}
   
 
 
-  
+
   /*Meduim*/
-  @media only screen and (min-width: 376px) {
+  @media only screen and (min-width: 530px) {
      div.cards { 
       display: grid;
       grid-template-columns: repeat(3, 1fr);
