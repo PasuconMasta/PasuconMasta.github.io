@@ -25,6 +25,7 @@ fetch(requestURL)
     image.setAttribute('height', '205');
     
     card.appendChild(h2);
+  }
     
     document.querySelector('div.cards').appendChild(card);
     
