@@ -1,0 +1,21 @@
+
+
+  
+
+
+  
+  /*Meduim*/
+  @media only screen and (min-width: 376px) {
+     div.cards { 
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+    /*large*/
+  @media only screen and (min-width: 769px) {
+     div.cards {    
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
