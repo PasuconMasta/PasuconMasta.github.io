@@ -1,6 +1,7 @@
 body{
-    font-size: 0.3em;
-    color: rgb(33, 101, 189);
+    font-size: 1rem;
+    color: rgb(24, 52, 88);
+    margin:2%;
     
 }
 main{
@@ -8,18 +9,26 @@ main{
     background-color: rgb(209, 207, 207);
 }
 h1{
-    font-size: 1em;
+    font-size: 3rem;
+    margin-left: 30%;
 }
 h2{
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 
 section{
-    margin: 5%;
-    background-color:rgb(131, 146, 194) ;
+    margin: 1%;
+    background-color:rgb(194, 205, 241) ;
     border: solid rgb(0, 0, 109);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
 }
-  
+  div.cards{
+      padding: 1%;
+      
+  }
 
 
 
