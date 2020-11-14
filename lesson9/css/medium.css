@@ -1,0 +1,50 @@
+
+@media only screen and (min-width: 600px)
+{
+
+    header{
+    flex-direction: row;
+    }
+
+    h3{
+        font-size:40px;
+    }
+    
+    #wheatherSumBox{
+        background-color: black;
+        flex-direction: row;
+        
+    }
+     #todaysstorms{
+         margin: 15px;
+     }
+
+     #fivedayforecast{
+        background-color: black; 
+     }
+
+     #article{
+        background-color: black;
+     }
+
+     footer{
+        background-color: black;
+     }
+     #stormcloud{
+        visibility: visible;
+     }
+
+     .SMicons{
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+    }
+
+    .container{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+     
+
+    }
+
+}
