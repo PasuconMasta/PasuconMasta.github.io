@@ -10,7 +10,9 @@ fetch(requestURL)
 
   const towns = jsonObject['towns'];
 
+  
   for (let i = 0; i < towns.length; i++ ) {
+    if (towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven"){
     let town = document.createElement('section');
     let name = document.createElement('h2');
     let image = document.createElement('img');
@@ -22,20 +24,27 @@ fetch(requestURL)
     
     
     name.textContent = towns[i].name;
-    image.setAttribute('src', towns[i].imageurl);
+    image.setAttribute('src', towns[i].photo);
     image.setAttribute('alt', "picture of " + towns[i].name);
     image.setAttribute('height', '205');
-    motto.textContent = 'Date of Birth: ' + towns[i].birthdate;
-    year.textContent = 'Place of Birth: ' + towns[i].birthplace;
+    motto.textContent = "motto: " + towns[i].motto;
+    year.textContent = "since " + towns[i].yearFounded;
+    population.textContent = "Population: " + towns[i].currentPopulation;
+    rain.textContent = "Average rainfall: " + towns[i].averageRainfall;
     
-    
-    town.appendChild(h2);
-    town.appendChild(birthDate);
-    town.appendChild(birthPlace);
+    town.appendChild(name);
     town.appendChild(image);
+    town.appendChild(motto);
+    town.appendChild(year);
+    town.appendChild(population);
+    town.appendChild(rain);
+  
  
     
-    document.querySelector('div.cards').appendChild(town);
+    document.querySelector('div.town').appendChild(town);
+    }
+   
+  
 }
 });
     
