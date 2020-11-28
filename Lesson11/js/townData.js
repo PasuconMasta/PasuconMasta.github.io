@@ -24,7 +24,7 @@ fetch(requestURL)
     
     
     name.textContent = towns[i].name;
-    image.setAttribute('src', towns[i].photo);
+    image.setAttribute('src', "images/" + towns[i].photo);
     image.setAttribute('alt', "picture of " + towns[i].name);
     image.setAttribute('height', '205');
     motto.textContent = "motto: " + towns[i].motto;
