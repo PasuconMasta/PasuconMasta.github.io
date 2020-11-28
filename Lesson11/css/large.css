@@ -55,8 +55,10 @@ footer{
  }
 
  .weeklyforecast{
-    width: 50px;
-    margin-left: 0px
+    width: 70px;
+    margin-left: 0px;
+    display: grid;
+    font-size: 100%;
       }
 
 .SMicons{

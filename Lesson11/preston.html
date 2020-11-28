@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-
+  <script src="js/prestonWheather.js"></script>
   
 
 </head>
@@ -53,16 +53,17 @@
             <p>Current Temp: <span id="curTemp"></span>&deg; F</p><br>
             <p>Humidity: <span id="humidity"></span>%</p> <br>
             <p>Wind Speed: <span id="windSpeed"></span><br>
+                <p>Wind Chill: <span id="windChill"></span><br>
             </div>
     </div>
 </div>
     <div class="fivedayforecast">
         <h4 id="fiveDayTitle">This Week's Storms!</h4>
-        <div class="weeklyforecast"> <p id="day1"> Mon</p> <span id="temp1">&deg; F</span> <img id="weatherIcon1"></div>
-        <div class="weeklyforecast"> <p id="day2"> Tue</p> <span id="temp2">&deg; F</span> <img id="weatherIcon2"></div>
-        <div class="weeklyforecast"> <p id="day3"> Tue</p> <span id="temp3">&deg; F</span> <img id="weatherIcon3"></div>
-        <div class="weeklyforecast"> <p id="day4"> Tue</p> <span id="temp4">&deg; F</span> <img id="weatherIcon4"></div>
-        <div class="weeklyforecast"> <p id="day5"> Tue</p> <span id="temp5">&deg; F</span> <img id="weatherIcon5"></div>
+        <div class="weeklyforecast"> <p id="day1"> Mon</p> <p><span id="temp1"></span>&deg; F</p><img id="weatherIcon1"></div>
+        <div class="weeklyforecast"> <p id="day2"> Tue</p> <p><span id="temp2"></span> &deg; F</p><img id="weatherIcon2"></div>
+        <div class="weeklyforecast"> <p id="day3"> Tue</p> <p><span id="temp3"></span> &deg; F</p><img id="weatherIcon3"></div>
+        <div class="weeklyforecast"> <p id="day4"> Tue</p> <p><span id="temp4"></span> &deg; F</p><img id="weatherIcon4"></div>
+        <div class="weeklyforecast"> <p id="day5"> Tue</p> <p><span id="temp5"></span> &deg; F</p><img id="weatherIcon5"></div>
         
 
     </div>
@@ -89,10 +90,14 @@
 <span id="currentdate"> </span> 
 </div>
 </footer>
+
 </body>
-<script src="js/prestonWheather.js"></script>
+
+
 <script src="js/currDate.js"></script>
 <script src="js/menuBtn.js"></script>
+<script src="js/windChill.js"></script>
 <script src="js/forecast.js"></script>
+
 </html>
   
