@@ -52,10 +52,19 @@ Footer{
           align-items: center;
           width: 50%;
           margin-left: 10px;
-          height: 100px;
+          height: 10%;
           position: relative;
           bottom: 130px;
       }
+#wheatherData{
+    display:flex;
+    flex-direction: column;
+    margin: 0%;
+
+    }
+div div p{
+margin:0px;
+}
 
       
       #stormicon{
@@ -231,3 +240,32 @@ textarea{
     width: 50%;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 1fr ;
+    width: 100%;
+    
+   
+}
+
+.galitem{
+    width: 300px;
+    height: 400px;
+    filter: blur(0em);
+    transition: filter 2s;
+    
+   
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+  }
+
+  .galitemp{
+    margin-bottom: 10%;
+    width: 300px;
+  }
+  
+  .galitem:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }

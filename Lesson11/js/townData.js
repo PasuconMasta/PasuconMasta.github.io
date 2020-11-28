@@ -47,4 +47,11 @@ fetch(requestURL)
   
 }
 });
+
+
+var d = new Date();
+var day = weekday[d.getDay()]
+if ( day == "Saturday") {
+    alert("Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.");
+  }
     

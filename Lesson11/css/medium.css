@@ -21,6 +21,8 @@ header{
 
         
     }
+
+    
      #todaysstorms{
          margin: 15px;
      }
@@ -69,6 +71,14 @@ label{
    font-size: 20px;
 }
 
+.container{
+   grid-template-columns: 1fr 1fr ;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+
+
+}
+
+}
 
 
 }
