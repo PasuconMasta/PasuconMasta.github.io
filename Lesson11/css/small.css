@@ -56,7 +56,7 @@ Footer{
           position: relative;
           bottom: 130px;
       }
-#wheatherData{
+.wheatherData{
     display:flex;
     flex-direction: column;
     margin: 0%;
