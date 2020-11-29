@@ -78,7 +78,30 @@ label{
 
 }
 
-}
 
+
+
+/*Home page CSS ****************************************/
+.town {
+      grid-template-columns: 1fr ; 
+      margin-bottom: 20%;
+      }
+.town section h2 {
+         right:0%;
+         left:40%;
+         width:30%;
+         padding:1%;
+         text-align: center;
+      }
+
+
+      .town section p{
+         position: relative;
+         width:40%;
+         left: 50%;
+         bottom: 30%;
+         font-size: 100%;
+         padding:1%;
+      }
 
 }

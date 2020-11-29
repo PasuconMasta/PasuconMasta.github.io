@@ -102,6 +102,11 @@ input{
 
 }
 
+/*Home page CSS ****************************************/
+.town {
+    grid-template-columns: 1fr 1fr 1fr; 
+    }
+
 
 
 
