@@ -47,7 +47,10 @@ Footer{
     grid-row-start: 2;
 }
 
-      .wheatherSumBox{
+/************** town page wheather **************/
+
+    .wheatherSumBox
+    {
           background-color: dimgray;
           border-style:solid;
           border-color: black;
@@ -60,19 +63,22 @@ Footer{
           height: 10%;
           position: relative;
           bottom: 130px;
-      }
-.wheatherData{
+    }
+    .wheatherData
+    {
     display:flex;
     flex-direction: column;
     margin: 0%;
 
     }
-div div p{
-margin:0px;
-}
+    .wheatherData p, .wheatherData p span
+    {
+        margin:0px; 
+    }
 
       
-      #stormicon{
+      #stormicon
+      {
           width: 50px;
           height: 50px;
           display: none;
@@ -104,15 +110,15 @@ margin:0px;
       }
 div div p {
     margin-right: 10%;
+
 }
 
-#article{
-    background-color: dimgray;
-    border-style:solid;
-    border-color: black;
-    border-width: 5px;
-    margin-top: 30px;
-}
+
+
+
+
+
+ /***********************************************end wheather */
 
 #logo{
     height:100px;

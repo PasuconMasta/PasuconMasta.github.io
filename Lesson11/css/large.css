@@ -22,6 +22,7 @@ p{
 font-size:15px;
 }
 
+/* town pages wheather stuff ***************/
 .wheatherSumBox{
     margin: 50px;
    position: relative;
@@ -31,13 +32,29 @@ font-size:15px;
    
 }
 
+
+    
+
 .fivedayforecast{
     margin:50px;
-}
+    flex-direction:row; 
+    width: 110%;
+    margin:0%;
+ }
 
-#article{
-    margin: 50px;
-}
+ .weeklyforecast{
+    width: 120px;
+    margin-left: 0px;
+    display: grid;
+    font-size: 100%;
+    padding:1%;
+      }
+
+
+
+
+/*********************************************/
+
 
 #radarmap{
     width: 300px;
@@ -48,17 +65,9 @@ footer{
     margin: 50px;
 }
 
-.fivedayforecast{
-    flex-direction:row; 
- }
 
- .weeklyforecast{
-    width: 70px;
-    margin-left: 0px;
-    display: grid;
-    font-size: 100%;
-      }
 
+ 
 .SMicons{
     width: 50px;
     height: 50px;
