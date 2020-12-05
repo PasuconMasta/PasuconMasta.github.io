@@ -135,8 +135,9 @@ input{
         .town section:nth-child(even) h2
         {
             width:250px;
-            left:10%;
+            left:40%;
             top:15%;
+            
         }
   
         .town section:nth-child(even) p{
