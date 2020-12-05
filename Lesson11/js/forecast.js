@@ -32,11 +32,11 @@
 
 
 
-const Api  = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=0266e2dbf3bd40f7c457a8100cb9c915";
+const Api  = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=0266e2dbf3bd40f7c457a8100cb9c915";
 fetch(Api)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        // console.log(jsObject);
         var weekDay = new Array(7);
         weekDay[0] = "SUN";
         weekDay[1] = "MON";
