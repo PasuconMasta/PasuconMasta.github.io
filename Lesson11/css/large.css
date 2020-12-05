@@ -106,8 +106,33 @@ input{
 .town {
     grid-template-columns: 1fr 1fr 1fr; 
     }
+    .town section h2 {
+        width:250px;
+        
+        right:10%;
+        top:15%;
+    }
 
-
-
-
+        .town section p{
+            width:300px;
+            bottom:5%;
+            left:0%;
+        }
+        .town section:nth-child(even) h2
+        {
+            width:250px;
+            left:10%;
+            top:15%;
+        }
+  
+        .town section:nth-child(even) p{
+            width:300px;
+            bottom:5%;
+            left:0%;
+        }
+  
+        .town section:nth-child(even) img{
+           
+           left:0%;
+        }
 }

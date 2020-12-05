@@ -89,15 +89,30 @@ label{
 .town section h2 {
          right:0%;
          left:40%;
-         width:30%;
+         width:200px;
          padding:1%;
          text-align: center;
+      }
+      .town section:nth-child(even) h2
+      {
+         left:15%;
+         z-index: 1;
+      }
+
+      .town section:nth-child(even) p{
+         left: 0%;
+         right:50%;
+      }
+
+      .town section:nth-child(even) img{
+         position: relative;
+         left:37%;
       }
 
 
       .town section p{
          position: relative;
-         width:40%;
+         width:250px;
          left: 50%;
          bottom: 30%;
          font-size: 100%;

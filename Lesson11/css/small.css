@@ -31,7 +31,7 @@ Footer{
     padding: 20px;
     display: grid;
     grid-template-rows: 1fr 2fr;
-    margin-top: 30px;  
+    margin-top: 200px;  
     }
 
 #footerright{
@@ -129,7 +129,7 @@ div div p {
 
 #radarmap{
     width: 90%;
-    height: 30%;
+    height: 100%;
 }
 
 
@@ -275,6 +275,7 @@ img[data-src] {
 
 
   /*Home page CSS ****************************************/
+  /*town blocks*/
   .town {
         display: grid;
         grid-template-columns: 1fr;
@@ -288,8 +289,8 @@ img[data-src] {
             width:90%;
             background-color: black;
             position: relative;
-            right:10%;
-            top:15%;
+            right:3%;
+            top:10%;
             box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
         
@@ -319,5 +320,26 @@ img[data-src] {
             0 41.8px 33.4px rgba(0, 0, 0, 0.086),
             0 100px 80px rgba(0, 0, 0, 0.12)
           ;
+
             
         }
+
+
+/* this is the homepage article ****/
+.spotlight{
+    margin-top:200px                                           ;
+}
+
+.spotlight h2{
+    background-color: black;
+
+}
+
+.spotlight p{
+    background-color: black;
+
+}
+.spotlight img{
+    height: 200px;
+    width:350px;
+}
