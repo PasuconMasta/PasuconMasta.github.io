@@ -1,3 +1,8 @@
+
+
+/* and unorganized mess of css **************************/
+
+
 body{
     background-color: rgb(99, 110, 128);
     font-family: 'Secular One', sans-serif;
@@ -342,4 +347,21 @@ img[data-src] {
 .spotlight img{
     height: 200px;
     width:350px;
+}
+
+/* Town page even css******************************/
+
+.event section img {
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+    margin-bottom: 0%;
+}
+
+.event section h2{
+    background-color: black;
+    margin-bottom: 0%;
+    padding: 5%;
+    font-size: 110%;
+}
 }
