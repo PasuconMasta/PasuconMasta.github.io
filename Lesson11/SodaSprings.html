@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Soda Springs wheather page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <meta name="description" content= "this is an informational page about Preston, Idaho">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <script src="js/sodaspringsWheather.js"></script>
+  
+
+</head>
+<body>
+
+
+  <header>
+      <picture>
+    <img src="images/stormlogo.jpg" id="logo" alt="Storms N' stuff Logo">
+</picture>
+<section class="header">
+    <h2 id="mainTitle"> Storms N' Stuff</h2>
+    <p>Look out for storms and get great stuff!</p>
+</section>
+
+
+  </header>
+  <nav>
+    <ul class="navigation">
+        <li><a class="ham" href="#" onclick="toggleMenu()" >☰ Menu</a></li>
+        <li><a href="homePage.html" >Home</a></li>
+        <li><a  href="preston.html" >Preston</a></li>
+        <li><a href="SodaSprings.html" class="currentpage" >Soda Springs</a></li>
+        <li><a href="FishHaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+<main>
+<h2 id="cityName">Soda Springs Idaho</h2>
+<div class="Hero">
+<img src="images/sodasprings.jpg" id="stormclouds" alt="stormclouds"><br>
+
+ 
+    <div class="wheatherSumBox">
+        
+            <h4 id="todaysstorms">Today's Storms!</h4>
+            <div class="wheatherData">
+            <p>Current Temp: <span id="curTemp"></span>&deg; F</p>
+            <p>Humidity: <span id="humidity"></span>%</p> 
+            <p>Wind Speed: <span id="windSpeed"></span>
+            <p>Wind Chill: <span id="windChill"></span>
+            </div>
+    </div>
+</div>
+    <div class="fivedayforecast">
+        <h4 id="fiveDayTitle">This Week's Storms!</h4>
+        <div class="weeklyforecast"> <p id="day1"> Mon</p> <p><span id="temp1"></span>&deg; F</p><img id="weatherIcon1"></div>
+        <div class="weeklyforecast"> <p id="day2"> Tue</p> <p><span id="temp2"></span> &deg; F</p><img id="weatherIcon2"></div>
+        <div class="weeklyforecast"> <p id="day3"> Tue</p> <p><span id="temp3"></span> &deg; F</p><img id="weatherIcon3"></div>
+        <div class="weeklyforecast"> <p id="day4"> Tue</p> <p><span id="temp4"></span> &deg; F</p><img id="weatherIcon4"></div>
+        <div class="weeklyforecast"> <p id="day5"> Tue</p> <p><span id="temp5"></span> &deg; F</p><img id="weatherIcon5"></div>
+        
+
+    </div>
+    <div class="event">
+        
+        
+        </p>
+    </div>
+</main>
+<footer>
+    <div id="footerleft">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43377.78368224106!2d-111.60715795423594!3d42.65827777017729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda%20Springs%2C%20ID%2083276!5e0!3m2!1sen!2sus!4v1607186392808!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="radarmap" alt=" map of local wheather radar"></iframe>
+ 
+    </div>
+    <div id="footerright">
+    <h4>Contact Information</h4>
+    4534 Adress Rd bla bla<br>
+    343-784-0909<br>
+    StormsNstuff@gmail.com <br>
+<img src="images/FBicon.jpg" class="SMicons" alt="facebook link">
+<img src="images/IGicon.jpg" class="SMicons" alt="instagram link">
+<img src="images/TWicon.jpg" class="SMicons" alt="twitter link">
+<br><br><br>
+<span id="currentdate"> </span> 
+</div>
+</footer>
+
+</body>
+
+
+<script src="js/currDate.js"></script>
+<script src="js/menuBtn.js"></script>
+<script src="js/windChill.js"></script>
+<script src="js/forecast.js"></script>
+<script src="js/sodaspringsEvent.js"></script>
+
+</html>
+  

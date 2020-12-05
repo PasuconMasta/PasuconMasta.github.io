@@ -258,6 +258,7 @@ textarea{
     display: grid;
     grid-template-columns: 1fr ;
     width: 100%;
+    margin-left: 8%;
     
    
 }
@@ -343,16 +344,27 @@ img[data-src] {
 
 .spotlight h2{
     background-color: black;
+    width: 90%;
+    margin-left: 15%;
+    margin-bottom: 0%;
+    
 
 }
 
 .spotlight p{
     background-color: black;
+    width: 70%;
+    margin-left:15%;
+    margin-top: 0%;
 
 }
-.spotlight img{
-    height: 200px;
-    width:350px;
+.spotlight img
+{
+    height: 100px;
+    width:320px;
+    margin:0%;
+    margin-left:0%;
+    
 }
 
 /* Town page even css******************************/

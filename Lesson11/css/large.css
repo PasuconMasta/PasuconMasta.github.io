@@ -63,6 +63,13 @@ font-size:15px;
 
 footer{
     margin: 50px;
+    display:flex;
+    flex-direction: row;
+}
+
+#footerright
+{
+    margin-left: 10%;
 }
 
 
@@ -143,6 +150,17 @@ input{
            left:0%;
         }
 
+/*article css***/
+
+
+
+
+.spotlight img{
+    width:700px;
+    margin-left: 15%;
+
+}
+
 
 /* Town page even css******************************/
 
@@ -153,6 +171,5 @@ input{
  
  }
 
-
-
 }
+
