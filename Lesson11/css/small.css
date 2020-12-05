@@ -356,12 +356,18 @@ img[data-src] {
     border-style: solid;
     border-width: 10px;
     margin-bottom: 0%;
+    position: relative;
+    top: 23px;
+    margin-left:
+
 }
 
-.event section h2{
+.event section h2, .event section p{
     background-color: black;
     margin-bottom: 0%;
     padding: 5%;
     font-size: 110%;
+    margin-top:0%;
+    margin-bottom:0%;
 }
 }

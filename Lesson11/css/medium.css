@@ -119,4 +119,21 @@ label{
          padding:1%;
       }
 
+/* Town page even css******************************/
+
+.event section img {
+   margin-left: 10%;
+   height: 337.5px;
+   width: 490.5px;
+
+}
+
+.event section h2, .event section p  {
+   margin-left: 10%;
+  
+
+}
+
+
+
 }

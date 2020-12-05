@@ -16,6 +16,7 @@ fetch(requestURL)
     let town = document.createElement('section');
     let image = document.createElement('img');
     let event = document.createElement('h2');
+    let eventDescription = document.createElement('p');
     
   
     
@@ -23,9 +24,11 @@ fetch(requestURL)
     image.setAttribute('alt', "picture of " + towns[i].name);
     image.setAttribute('height', '205');
     event.textContent =  towns[i].events[0];
+    eventDescription.textContent = "Come down to Work Creek! On March 29th we are having a bluegrass/folk music revival. Tickects will be on sale starting january first, prices may go up as we get closer to march 29th so get your tickets today! "
     
     town.appendChild(image);
     town.appendChild(event);
+    town.appendChild(eventDescription);
   
     document.querySelector('div.event').appendChild(town);
     }
