@@ -1,0 +1,22 @@
+@media screen and (max-width: 769px){
+
+    .navigation li{
+        display:none;
+        margin-left:0%;
+    } 
+    .responsive li {
+        display: block;
+        
+    }
+
+    .navigation{
+
+        flex-direction: column;
+  
+    }
+   
+    .navigation li:first-child {
+        display: block;
+        width:100%;
+    }
+}

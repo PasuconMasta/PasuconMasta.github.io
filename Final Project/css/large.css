@@ -1,0 +1,295 @@
+/*general CSS****************************/
+
+html{
+    padding: 0%;
+    margin:0%;
+    background-color: #eafaea;
+}
+
+body{
+    padding: 0%;
+    margin:0%;
+}
+ 
+
+h2{
+    margin-top:0%;
+}
+
+
+p{
+    margin:0%;
+}
+/*header CSS *****************************/
+
+header{
+    background-color: #64945c;
+    
+    
+}
+
+
+
+#titleLine {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+#logo {
+    height: 100px;
+    width:80px;
+    margin-top: 20px;
+    border-radius: 25px;
+    position: relative;
+    left: 36%;
+}
+
+#mainTitle{
+    font-family: 'Abril Fatface', cursive;
+    margin-left: 40%;
+    font-size: 250%;
+
+}
+
+#slogan{
+    margin-left: 50%;
+    position: relative;
+    bottom:50px;
+}
+
+#rentcontainer{
+    position: relative;
+    left: 90%;
+    background-color: #FDCEAF;
+    border-radius: 25px;
+    height: 50px;
+    padding: 10spx;
+    width:100px;
+    text-align: center;
+    bottom:130px;
+}
+
+#rentcontainer:hover{
+    background-color: white;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+/* navigation css*************************/
+
+
+nav{
+    border-top-style: solid;
+    border-top-color:#FDCEAF ;
+    background-color: #64945c;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+      
+      
+li a {
+    display: block;
+    color: #FDCEAF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+      }
+li a:hover {
+        background-color:white;
+      }
+
+   .navigation{
+       display:flex;
+       justify-content: center;
+   }
+
+   .navigation li{
+       margin-left:5%
+   }
+    
+    .navigation li:first-child {
+        display: none;
+    }
+
+
+
+/*Home Page CSS*********************************/
+
+main{
+    background-color: #eafaea;
+}
+
+#tagline{
+    margin-bottom:50px;
+    margin-left:10%;
+    font-size: 60px;
+    
+  
+}
+
+
+#topjeeppic{
+    margin-left:10%;
+    margin-bottom:10%;
+}
+
+.wheatherMod, .wheatherMod div{
+    display: flex;
+    flex-direction: row;
+
+}
+
+  .bubble div{
+    background-color:  #64945c;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    
+
+}
+
+#bubble1{
+    position: relative;
+    top:200px;
+}
+#bubble2{
+    position: relative;
+    top:400px;
+}
+#bubble3{
+    position: relative;
+    top:600px;
+}
+
+.bubbleContents, .bubbleContents div {
+    
+    width:100%;
+    font-size: 18px;
+    
+} 
+
+
+
+
+.mods{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.infoBox img{
+    height: 200px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+
+#jeep{
+    height: 600px;
+    width:300;
+    box-shadow: 10px 10px 20px grey;
+    margin-left: 10%;
+
+}
+
+.infoBox{
+    margin-left: 100px;
+    border: 5px solid black;
+    width: 500px;
+    background-color: #e0fde0;
+}
+
+.infoBox h2 {
+    background-color:#64945c ;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+
+
+.infoBox li{
+    margin-left: 10px;
+    margin-top:30px;
+    font-size: 30px;
+    
+}
+
+#ATV{
+    height: 600px;
+    width:400;
+    box-shadow: 10px 10px 20px grey;
+    margin-left: 10%;
+}
+
+#scooter{
+    height: 600px;
+    width:400;
+    box-shadow: 10px 10px 20px grey;
+    margin-left: 10%;
+}
+
+
+
+
+#map{
+    margin-left:30%;
+}
+
+/*footer CSS ******************************/
+
+footer{
+    background-color: #64945c;
+    padding: 30px;
+    margin-top:200px;
+}
+
+#topsec{
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width:100%;
+}
+
+.footsecs{
+    margin-bottom: 30px;
+}
+
+#topsec{
+    padding: 20px;
+}
+
+#botsec{
+    margin-left:35%;
+}
+
+.SMicons{
+    margin-left:15%;
+}
+
+
+/* Rental CSS***************************/
+aside{
+    width: 20%;
+    border: 2px solid #64945c;
+  
+}
+
+
+aside h2{
+    background-color:#64945c ;
+}
+
+aside ul{
+    margin-left: 5%;
+}
+
+aside li{
+    margin-top:15px
+}
+

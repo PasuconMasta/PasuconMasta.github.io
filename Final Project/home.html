@@ -1,0 +1,167 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Scoots Home Page </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <meta name="description" content= "this is an informational page about Preston, Idaho">
+  <link rel="stylesheet" href="FinalPro.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+
+
+</head>
+<body>
+
+
+  <header>
+    <div id="titleLine">
+        
+        <img src="images/ScootsIcon.jpg" id="logo" alt="ScootsLogo">
+        <h2 id="mainTitle"> Scoots </h2>
+       
+        
+      
+        
+    </div>
+    <p id="slogan"> a Paradise Adventure Service</p>
+    <div id="rentcontainer"><br><a id="rentlink" href=""></a>RENT NOW</div>
+
+    
+
+
+  </header>
+  <nav>
+    <ul class="navigation">
+        <li><a class="ham" href="#" onclick="toggleMenu()" >☰ Menu</a></li>
+        <li><a href="home.html" class="currentpage">Home</a></li>
+        <li><a  href="rentals.html">Rentals</a></li>
+        <li><a href="SodaSprings.html">Soda Springs</a></li>
+        <li><a href="FishHaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+<main>
+
+    <h1 id="tagline">Book your Adventure Today!</h1>
+    
+
+    
+
+
+    <section class="wheatherMod">
+
+            
+
+        <img id="topjeeppic" src="https://images.unsplash.com/photo-1483304100117-de6cf30d47e0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTI1fHxqZWVwfGVufDB8fDB8&auto=format&fit=crop&w=500&q=60">
+       
+        <div class="bubble">
+            <div class="bubbleContents"> 
+                <p>Temp: <span id="curTemp"></span>&deg; F</p><br>
+            <p>Humidity: <span id="humidity"></span>%</p> <br>
+            <p>Conditions: <span id="conditions"></span></p><br>
+                <span>icon</span>
+        </div>
+            
+            <div class="bubble" id="bubble1">
+                <div class="bubbleContents">
+                    <div class="weeklyforecast"> <p id="day1"> Mon</p> <p><span id="temp1"></span>&deg; F</p><img src="images/placeholder.png" id="weatherIcon1" alt="weatherIcon"></div>
+                </div>
+            </div>
+
+            <div class="bubble" id="bubble2">
+                <div class="bubbleContents">
+                    <div class="weeklyforecast"> <p id="day2"> Tue</p> <p><span id="temp2"></span> &deg; F</p><img src="images/placeholder.png" id="weatherIcon2" alt="weatherIcon"></div>
+                </div>
+            </div>
+            
+            <div class="bubble" id="bubble3">
+                <div class="bubbleContents">
+                    <div class="weeklyforecast"> <p id="day3"> Tue</p> <p><span id="temp3"></span> &deg; F</p><img src="images/placeholder.png" id="weatherIcon3" alt="weatherIcon"></div>
+                </div>
+            </div>
+
+
+    </section>
+
+    <div class="mods" class="jeepsMod">
+        <img id ="jeep" src="https://images.pexels.com/photos/1603410/pexels-photo-1603410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+        
+        <div class="infoBox">
+            <h2>Jeep Rentals</h2>
+            <ul>
+                <li>- Jeep Wrangler - 4 door</li>
+                <li>- Jeep Wrangler - 2 door</li>
+            </ul>
+
+            <img id="routemap" src="images/jeepTrailMap.jpg">
+        </div>
+
+    </div>
+
+    <div class="mods" id="ATVMod">
+        <img id="ATV" src="https://images.unsplash.com/photo-1597285433409-5143394bdae9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzV8fGF0dnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        <div class="infoBox">
+            <h2>ATV Rentals</h2>
+            <ul>
+                <li>- Honda Pioneer ATV</li>
+            </ul>
+        
+            <img class="routemap" src="images/ATVmap.jpg">
+        </div>
+    </div>
+
+
+
+    <div class="mods" id="scooterMod">
+        <img id="scooter" src="https://images.unsplash.com/photo-1456298723747-6addc6c0c49d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80">
+
+        <div class="infoBox">
+            <h2>Scooter Rentals</h2>
+            <ul>
+                <li>- Honda Dio Scooter</li>
+                <li>- Honda Metro Scooter</li>
+                <li>- Honda PCX150 Scooter</li>
+            </ul>
+        
+            <img id="routemap" src="images/scooterMap.jpg">
+        </div>
+    </div>
+
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241174.1609855906!2d-87.06192129351757!3d20.586751987129563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e58f52b8be959%3A0x976871b87b61bec3!2sCozumel%2C%2077600%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sus!4v1607961482886!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</main>
+<footer>
+  
+    <section  class="footsecs" id="topsec"> 
+        <h3>Contact Information</h3>
+    
+
+    
+        Adress: 776000 Quintana Roo, Mexico <br>
+        Phone: 801-344-545<br>
+        ScootsRental@gmail.com <br>
+    </section>
+    <section class="footsecs" id="midsec">
+        <img src="images/FBicon.jpg" class="SMicons" alt="facebook link">
+        <img src="images/IGicon.jpg" class="SMicons" alt="instagram link">
+        <img src="images/TWicon.jpg" class="SMicons" alt="twitter link">
+    </section>
+    <section class="footsecs" id="botsec">
+        <p><span id="currentdate"> current date here  </span> | Ⓒ real-actual-copyright | Terms of Use | Privacy Policy</p>
+    </section>
+
+
+</footer>
+<script src="js/menuBtn.js"></script>
+<script src="js/currDate.js"></script>
+<script src="js/currentWheather.js"></script>
+
+</body>
+</html>
+  
