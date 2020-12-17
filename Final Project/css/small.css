@@ -1,0 +1,58 @@
+@media screen and (max-width: 375px){
+
+
+
+
+
+    .wheatherMod{
+        flex-direction: column;
+    
+    }
+.wheatherBubbles{
+    margin: auto;
+}
+
+.mods{
+flex-direction: column;
+margin-top: 10%;
+}
+
+#jeep{
+width:300px;
+height: 200px;
+margin:auto;
+}
+
+#ATV{
+width:300px;
+margin:auto;
+}
+
+#scooter{
+    width:300px;
+    height: 200px;
+    margin:auto;
+}
+
+.infoBox li{
+font-size: 16px;
+
+}
+
+.infoBox h2 {
+
+font-size: 20px;
+
+}
+
+.infoBox{
+
+width:95%;
+}
+
+
+
+
+
+
+}

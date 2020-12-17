@@ -149,7 +149,6 @@ main{
 .wheatherBubbles{
     display: flex;
     flex-direction: column;
-    width:
 }
 .today{
     background-color:  #64945c;

@@ -10,13 +10,74 @@
     }
 
     .navigation{
-
         flex-direction: column;
-  
     }
    
     .navigation li:first-child {
         display: block;
         width:100%;
     }
+
+    #topjeeppic{
+        margin-left:5%;
+        margin-right:15%;
+        margin-bottom:5%;
+        width:300px;
+        height: 500px;
+    }
+
+.mods{
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+#jeep{
+    width:450px;
+    height: 300px;
+    margin:auto;
+}
+
+#ATV{
+    width:300px;
+    margin:auto;
+}
+
+#scooter{
+    width:450px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.infoBox li{
+    font-size: 20px;
+    
+}
+
+.infoBox h2 {
+    
+    font-size: 30px;
+    
+}
+
+.infoBox{
+    margin:auto;
+    width:350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
