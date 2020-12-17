@@ -50,26 +50,67 @@
 </nav>
 <main>
 
-    <h1 id="tagline">Rental Information</h1>
-    
-<aside>
-    <h2>General Information</h2>
-    <ul>
-        <li> - A $50 security deposit is required to confirm reservations.</li>
-        <li> - A valid drivers license is required in hand at time of rental.</li>
-        <li> - No one under 12 years of age are allowed to ride on the scooters.</li>
-        <li> - Fuel charge not included.</li>
-        <li> - Unlimited mileage.</li>
-        <li> - Liability insurance is free of charge.</li>
-        <li> - Reservations rate requires 24 hour prior notification.</li>
-        <li> - Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
-        <li> - Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
-        <li> - Rentals may be returned to either location.</li>        
-    </ul>
-</aside>
-    
-<div class="prices"></div>
+    <h1 id="reserve" >Reservations</h1>
 
+    <form action="comfimation.html" method="get" class="form-example" >
+        <div class="formLine">
+          <label for="name">Full Name: </label>
+          <input type="text" name="name" id="name" required pattern="[a-z A-Z]{5,25}">
+        </div>
+        <div class="formLine">
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" required placeholder="example@domain.com">
+        </div>
+        <div class="formLine">
+            <label for="tel">Phone Number: </label>
+            <input type="tel" name="tel" id="tel" required placeholder="###-###-###">
+          </div>
+          <div class="formLine">
+            <label for="country">Home Country/State: </label>
+            <input type="text" name="Country" id="country" >
+          </div>
+          <div class="formLine">
+            <label for="cruise">Cruise Line: </label>
+            <input type="text" name="cruiseLine" id="cruise" >
+          </div>
+          <div class="formLine">
+            <label for="date">Rental Date: </label>
+            <input type="date" name="date" id="date" required>
+          </div>
+          <div class="formLine">
+            <label for="vehicletype">Vehical Type: </label>
+            <input type="text" list="vehicles" name="vehicletype" id="vehicletype" required>
+            <datalist id="vehicles">
+                <option value="jeep 4 door">
+                <option value="jeep 2">
+                <option value="scooter1">
+                <option value="scooter2">
+                <option value="scooter3">
+                <option value="ATV">
+            </datalist>
+          </div>
+        <div class="formLine">
+            <label for="stormregion">Rental Type: 
+                <select name="rentaltype"  id="stormregion">
+                <option value="" disabled>Select Option...</option>
+                <option value="Preston">Full day</option>
+                <option value="Soda Springs">half day</option>
+                </select>
+            </label>
+         
+          </div>
+          <br>
+          <div class="formLine">
+          <label for="comments">Additional comments</label>
+          <br>
+          <textarea id="comments" name="Additional comments" >
+          </textarea>
+        </div>
+
+         <div>
+            <input type="submit" value="Enter Alert" >
+        </div>
+      </form>
 
 </main>
 <footer>

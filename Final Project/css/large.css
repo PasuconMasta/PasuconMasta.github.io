@@ -1,4 +1,4 @@
-/*general CSS****************************/
+/*general CSS***********************************************************************************************************************************/
 
 html{
     padding: 0%;
@@ -20,7 +20,7 @@ h2{
 p{
     margin:0%;
 }
-/*header CSS *****************************/
+/*header CSS ************************************************************************************************************************************/
 
 header{
     background-color: #64945c;
@@ -75,7 +75,7 @@ header{
     box-shadow: 0 8px 6px -6px black;
 }
 
-/* navigation css*************************/
+/* navigation css*******************************************************************************************************************************/
 
 
 nav{
@@ -118,13 +118,13 @@ li a:hover {
 
 
 
-/*Home Page CSS*********************************/
+/*Home Page CSS****************************************************************************************************************************************/
 
 main{
     background-color: #eafaea;
 }
 
-#tagline{
+.tagline{
     margin-bottom:50px;
     margin-left:10%;
     font-size: 60px;
@@ -241,7 +241,7 @@ main{
     margin-left:30%;
 }
 
-/*footer CSS ******************************/
+/*footer CSS *************************************************************************************************************************************/
 
 footer{
     background-color: #64945c;
@@ -273,7 +273,7 @@ footer{
 }
 
 
-/* Rental CSS***************************/
+/* Rental CSS**********************************************************************************************************************************/
 aside{
     width: 20%;
     border: 2px solid #64945c;
@@ -293,3 +293,74 @@ aside li{
     margin-top:15px
 }
 
+
+
+/*Resevations CSS*******************************************************************************************************************************/
+
+#reserve{
+    margin-left:45%;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin:auto;
+    margin-bottom: 30px;
+    
+}
+
+
+
+input:invalid{
+    background-color: #FDCEAF;
+}
+
+#confirmTxt{
+    margin:auto;
+    font-size: 2rem;
+    margin-left:10%;
+}
+
+
+/* Tours Page CSS*************************************************************************************************************/
+
+.location{
+    display: flex;
+    flex-direction: row;
+    margin-left:5%;
+    margin-bottom: 400px;
+}
+
+.location img{
+    margin-right: 50px;
+}
+
+.location p, .location a {
+    position: relative;
+    right:100px;
+    top:65px;
+
+}
+
+.location h2{
+    font-size: 2.5rem;
+}
+
+iframe{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left:60%;
+
+}
+
+#sangavasioimg{
+    height:334px;
+    
+}
+
+.trails div img{
+    width:800px;
+    height: 600px;
+}
