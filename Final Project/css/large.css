@@ -312,9 +312,6 @@ form div{
 
 
 
-input:invalid{
-    background-color: #FDCEAF;
-}
 
 #confirmTxt{
     margin:auto;
@@ -347,7 +344,7 @@ input:invalid{
     font-size: 2.5rem;
 }
 
-iframe{
+.location iframe{
     width: 600px;
     height: 600px;
     position: absolute;
@@ -361,6 +358,20 @@ iframe{
 }
 
 .trails div img{
-    width:800px;
+    width:1000px;
     height: 600px;
+}
+
+.trails{
+    position: relative;
+    left:20%;
+   
+}
+
+.trails p {
+    font-size:1.3rem;
+}
+
+.trails div h2{
+    font-size:2.3rem;
 }
