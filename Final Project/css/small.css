@@ -2,9 +2,41 @@
 
 
 
+/*header CSS ************************************************************************************************************************************/
+
+#titleLine {
+    display: flex;
+    flex-direction: column;
+ 
+}
 
 
-    .wheatherMod{
+#logo {
+    left: 5%;
+}
+
+#rentcontainer{
+    left: 70%;
+    bottom: 200px;
+   
+}
+
+
+#mainTitle{
+    margin-left: 10%;
+    margin-top:10% ;
+}
+
+#slogan{
+    margin-left: 10%;
+    bottom:30px;
+}
+
+
+
+
+/*Home Page CSS****************************************************************************************************************************************/
+.wheatherMod{
         flex-direction: column;
     
     }
@@ -50,9 +82,23 @@ font-size: 20px;
 width:95%;
 }
 
+#map{
+    width: 100%;
+    margin-left:0%;
+}
+
+.SMicons:first-child{
+    margin-left: 15%;
+}
 
 
+#botsec{
+    margin-left:5%;
+}
 
-
+.infoBox img{
+    margin-left:12%;
+    
+}
 
 }
