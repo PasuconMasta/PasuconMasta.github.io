@@ -1,15 +1,4 @@
-const localJSON = 
-  {
-      "id": 1,
-      "name": "Honda Metro Scooter",
-      "Max Persons": 1,
-      "half-day-reseved": 20,
-      "half-day-walkin": 25,
-      "full-day-reseved": 30,
-      "full-day-walkin": 35
-      
-  }
-
+const localJSON = "data/priceData.js"
 
 fetch(localJSON)
   .then(function (response) {
