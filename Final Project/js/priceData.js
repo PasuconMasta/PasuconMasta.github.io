@@ -1,4 +1,4 @@
-const localJSON = "data/priceData.js"
+const localJSON = 'https://pasuconmasta.github.io/Final%20Project/data/prices.json'
 
 fetch(localJSON)
   .then(function (response) {
@@ -8,39 +8,40 @@ fetch(localJSON)
     console.table(jsonObject);   //temporary checking for valid response and data parsing
  
 
-  const towns = jsonObject['prices'];
+  const prices = jsonObject['prices'];
 
   
   for (let i = 0; i < prices.length; i++ ) {
-    let price = document.createElement('section');
-    let name = document.createElement('h2');
-    // let image = document.createElement('img');
-    // let motto = document.createElement('p');
-    // let year = document.createElement('p');
-    // let population = document.createElement('p');
-    // let rain = document.createElement('p');
-  
+    let price = document.createElement('tr');
+    let name = document.createElement('td');
+    let maxp = document.createElement('td');
+    let halfdayR = document.createElement('td');
+    let halfdayW = document.createElement('td');
+    let fulldayR = document.createElement('td');
+    let fulldayW = document.createElement('td');
     
+  
+    prices[0]["Max Persons"]
     
     name.textContent = prices[i].name;
-    // image.setAttribute('src', "images/" + prices[i].photo);
-    // image.setAttribute('alt', "picture of " + prices[i].name);
-    // image.setAttribute('height', '205');
-    // motto.textContent = "motto: " + towns[i].motto;
-    // year.textContent = "since " + towns[i].yearFounded;
-    // population.textContent = "Population: " + towns[i].currentPopulation;
-    // rain.textContent = "Average rainfall: " + towns[i].averageRainfall;
+    maxp.textContent = prices[i]["Max Persons"];
+    halfdayR.textContent = "$ " + prices[i]["half-day-reseved"] + ".00";
+    halfdayW.textContent = "$ " + prices[i]["half-day-walkin"] + ".00"; 
+    fulldayR.textContent = "$ " + prices[i]["full-day-reseved"] + ".00";
+    fulldayW.textContent = "$ " + prices[i]["full-day-walkin"] + ".00"; 
+    
     
     price.appendChild(name);
-    // town.appendChild(image);
-    // town.appendChild(motto);
-    // town.appendChild(year);
-    // town.appendChild(population);
-    // town.appendChild(rain);
+    price.appendChild(maxp);
+    price.appendChild(halfdayR);
+    price.appendChild(halfdayW);
+    price.appendChild(fulldayR);
+    price.appendChild(fulldayW);
+    
   
  
     
-    document.querySelector('div.prices').appendChild(prices);
+    document.querySelector('tbody.prices').appendChild(price);
     
    
   

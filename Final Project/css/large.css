@@ -145,11 +145,19 @@ main{
     flex-direction: row;
 
 }
+
+.wheatherBubbles{
+    display: flex;
+    flex-direction: column;
+    width:
+}
 .today{
     background-color:  #64945c;
     height: 150px;
     width: 150px;
     margin-left: 10px;
+    padding: 1%;
+    box-shadow: 10px 10px 20px grey;
 }
 
   .bubble{
@@ -157,23 +165,22 @@ main{
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    display:block;
     box-shadow: 10px 10px 20px grey;
+    
     
 
 }
 
+@media screen and (min-width: 1200px){
 #bubble1{
-    position: relative;
-    top:200px;
+    margin-left: 100%;
 }
 #bubble2{
-    position: relative;
-    top:400px;
+    margin-left: 200%;
 }
 #bubble3{
-    position: relative;
-    top:600px;
+    margin-left: 300%;
+}
 }
 
 
@@ -194,6 +201,7 @@ main{
     display: flex;
     flex-direction: column;
     padding:25%;
+    width: 140px;
 }
 
 
@@ -204,15 +212,15 @@ main{
 
 .infoBox img{
     height: 200px;
-    width: 400px;
+    width: 250px;
     margin-top: 100px;
     margin-left: 50px;
     
 }
 
 #jeep{
-    height: 600px;
-    width:300;
+    height: 400px;
+    width:200;
     box-shadow: 10px 10px 20px grey;
     margin-left: 10%;
 
@@ -242,8 +250,8 @@ main{
 }
 
 #ATV{
-    height: 600px;
-    width:400;
+    height: 200px;
+    width:100;
     box-shadow: 10px 10px 20px grey;
     margin-left: 10%;
 }
@@ -302,10 +310,11 @@ footer{
 aside{
     width: 20%;
     border: 2px solid #64945c;
+    position: absolute;
   
 }
 
-
+/* general info*******/
 aside h2{
     background-color:#64945c ;
 }
@@ -318,6 +327,52 @@ aside li{
     margin-top:15px
 }
 
+
+/*vehicles***********/
+.vehicleContainer{
+    margin-left:25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:3rem;
+}
+
+
+
+.vehicle img{
+    height: 200px;
+    width: 350px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+#dio{
+    width:250px;
+}
+
+#metro{
+    width:250px;
+}
+
+/*price table*********/
+
+table{
+    background-color: rgb(198, 230, 198);
+    margin:auto;
+    margin-top: 10%;
+}
+
+
+
+thead{
+    background-color:#64945c ;
+}
+
+td{
+    border-color:grey ;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin: 0%;
+}
 
 
 /*Resevations CSS*******************************************************************************************************************************/
@@ -336,7 +391,9 @@ form div{
 }
 
 
-
+#vehicletype{
+    margin-bottom:50px
+}
 
 #confirmTxt{
     margin:auto;
