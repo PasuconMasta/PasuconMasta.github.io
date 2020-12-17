@@ -138,17 +138,25 @@ main{
     margin-bottom:10%;
 }
 
-.wheatherMod, .wheatherMod div{
+.wheatherMod{
     display: flex;
     flex-direction: row;
 
 }
+.today{
+    background-color:  #64945c;
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+}
 
-  .bubble div{
+  .bubble{
     background-color:  #64945c;
     border-radius: 50%;
     height: 150px;
     width: 150px;
+    display:block;
+    box-shadow: 10px 10px 20px grey;
     
 
 }
@@ -166,14 +174,25 @@ main{
     top:600px;
 }
 
-.bubbleContents, .bubbleContents div {
-    
+
+  #weatherIcon1, #weatherIcon2, #weatherIcon3 {
+    height: 50px;
+    width: 50px;
+}
+
+.bubbleContents div{
+    display: block;
+   
     width:100%;
     font-size: 18px;
     
 } 
 
-
+.weeklyforecast{
+    display: flex;
+    flex-direction: column;
+    padding:25%;
+}
 
 
 .mods{
@@ -267,9 +286,13 @@ footer{
 #botsec{
     margin-left:35%;
 }
-
+.SMicons:first-child{
+    margin-left: 40%;
+}
 .SMicons{
-    margin-left:15%;
+    margin-left:5%;
+    height: 50px;
+    width: 50px;
 }
 
 
@@ -374,4 +397,60 @@ form div{
 
 .trails div h2{
     font-size:2.3rem;
+}
+
+
+/* Contact CSS*************************************************************************************************************/
+
+.flexBox1{
+    margin-top:10%;
+    display:flex;
+    flex-direction: row;
+}
+.flexBox1 .infoBox{
+    margin:auto;
+}
+
+.flexBox1 .infoBox p {
+    margin:50px;
+}
+
+.flexBox2{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.infoBox form{
+    margin:40px;
+    
+}
+
+.infoBox form div {
+    width: 80%;
+}
+
+
+.flexBox2{
+    margin-top:10%;
+    display:flex;
+    flex-direction: row;
+}
+
+
+.locationbox{
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.locationbox iframe{
+    width: 700px;
+    height: 500px;
+}
+
+.locationbox p{
+    margin-top:10%;
+
 }
