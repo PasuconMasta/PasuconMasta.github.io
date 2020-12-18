@@ -90,6 +90,55 @@
     margin-left:10%;
 }
 
+/* Rental CSS**********************************************************************************************************************************/
+
+
+.vehicleContainer{
+    margin-left: 15%;
+    margin-top: 600px;
+    
+}
+
+aside{
+    left:10%;
+    width: 80%;
+}
+
+
+td{
+    font-size: 15px;
+}
+/*Resevations CSS*******************************************************************************************************************************/
+
+
+form div{
+    width: 350px; 
+}
+
+#reserve{
+    margin-left:35%;
+}
+
+/* Contact CSS*************************************************************************************************************/
+
+
+.flexBox1{
+    flex-direction: column;
+}
+
+.flexBox2{
+    flex-direction: column;
+}
+
+.infoBox form{
+    margin-top:40px;
+    
+}
+
+#infoBoxForm{
+    margin-top:50px;
+}
+
 
 
 
