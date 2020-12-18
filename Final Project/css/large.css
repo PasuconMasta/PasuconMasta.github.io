@@ -64,7 +64,7 @@ header{
     background-color: #FDCEAF;
     border-radius: 25px;
     height: 50px;
-    padding: 10spx;
+   
     width:100px;
     text-align: center;
     bottom:130px;
@@ -220,7 +220,6 @@ main{
 
 #jeep{
     height: 400px;
-    width:200;
     box-shadow: 10px 10px 20px grey;
     margin-left: 10%;
 
@@ -229,7 +228,6 @@ main{
 .infoBox{
     margin-left: 100px;
     border: 5px solid black;
-    width: min-;
     background-color: #e0fde0;
 }
 
@@ -251,14 +249,13 @@ main{
 
 #ATV{
     height: 200px;
-    width:100;
+
     box-shadow: 10px 10px 20px grey;
     margin-left: 10%;
 }
 
 #scooter{
     height: 400px;
-    width:200;
     box-shadow: 10px 10px 20px grey;
     margin-left: 10%;
 }
@@ -491,7 +488,7 @@ form div{
 #tourmap2{
     position: relative;
     bottom:500px;
-    left:45%;
+    left:50%;
 }
 
 #tourmap3{
