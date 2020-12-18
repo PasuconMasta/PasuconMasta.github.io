@@ -135,6 +135,50 @@ form div{
 
 
 
+/* Tours Page CSS*************************************************************************************************************/
 
+
+#playaChenRioimg{
+    width:200px;
+    height: 300px;
+}
+
+#sangavasioimg{
+    width:300px;
+    height: 200px;
+    
+}
+
+#puntaimg{
+    width:200px;
+    height: 300px;
+}
+
+.trails div img{
+    width:300px;
+    height: 200px;
+}
+
+.tourmaps{
+    width: 200px;
+    height: 200px;
+    
+
+}
+
+.trails p {
+    font-size:1rem;
+}
+
+
+.trails div h2{
+    font-size:2rem;
+   
+}
+
+.location p{
+    width:200px;
+
+}
 
 }

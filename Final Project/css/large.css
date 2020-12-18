@@ -430,9 +430,9 @@ form div{
 
 .location p{
     position: relative;
-    top:65px;
+    top:90px;
     right:200px;
-    width:300px;
+    width:500px;
 
 }
 
@@ -440,15 +440,14 @@ form div{
 
 .location h2{
     font-size: 2.5rem;
+    width:500px;
   
 }
 
 .tourmaps{
     width: 400px;
     height: 300px;
-    position: relative;
-    bottom:100px;
-    left:50%;
+    
 
 }
 
@@ -458,8 +457,8 @@ form div{
 }
 
 .trails div img{
-    width:1000px;
-    height: 600px;
+    width:800px;
+    height: 500px;
 }
 
 .trails{
@@ -474,8 +473,31 @@ form div{
 
 .trails div h2{
     font-size:2.3rem;
+   
 }
 
+#tourmap1{
+    position: relative;
+    top:50px;
+    left:10%;
+    margin-bottom: 30%;
+}
+
+
+
+
+
+#tourmap2{
+    position: relative;
+    bottom:500px;
+    left:45%;
+}
+
+#tourmap3{
+    position: relative;
+    bottom:400px;
+    left:50%;
+}
 
 /* Contact CSS*************************************************************************************************************/
 
